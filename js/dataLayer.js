@@ -1,5 +1,5 @@
 var xhr = new XMLHttpRequest();
-xhr.open("GET", 'http://www.fulek.com/VUA/SUPIT/GetCategoriesAndFoods',
+xhr.open("GET", 'https://cors-anywhere.herokuapp.com/http://www.fulek.com/VUA/SUPIT/GetCategoriesAndFoods',
     true);
 xhr.onload = function () {
     if (this.status == 200) {
