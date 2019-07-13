@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+        <script src="js/animations.js"></script>
+        <script src="js/dataLayer.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <style>
+            #container{
+                width: 50%;
+            }
+            #ordered{
+                width: 50%;
+                background: #e74c3c;  
+            }
+        body {
+            font-family: 'Roboto', sans-serif;       
+            display: flex;
+        }
+        .menu{
+	  color:white;
+      background-color:#e74c3c;
+        }
+
+        .cuisine{
+	  color: black;
+      background-color: white;
+        }
+        .cuisine:hover{
+            background-color: orange;
+        }
+
+        .naruci{
+     display: block;
+     margin: 0 0 0 85%;
+        }
+        
+        #orders{
+            width: 80%;
+            margin: auto;
+            position: fixed;
+            
+        }
+        #orders a{
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            margin: auto;
+        }
+
+        #orderList{
+            height: 500px;
+            widows: 20%;
+            background-color: white;
+            border: 1px solid black;
+        }
+        </style>
+    </head>
+
+
+    
+    <body>
+            <div class="loader">
+                    <img src="img/loader.gif" />
+                </div>
+        <div id="container">  
+        </div>
+        <div id="ordered">
+            <div id="orders">
+            <a href="index.html"><b>Povratak na stranicu</b></a>
+            <div id="orderList">
+                
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
