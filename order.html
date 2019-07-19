@@ -51,9 +51,34 @@
 
         #orderList{
             height: 500px;
-            widows: 20%;
+            
             background-color: white;
             border: 1px solid black;
+        }
+
+        @media only screen and (max-width: 768px) {
+        body {
+            flex-direction: column;
+        }
+
+        #container{
+                height: 200px;
+                width: 100%;
+            }
+            #ordered{
+                height: 200px;
+
+                width: 100%;
+                background: #e74c3c;  
+            }
+
+            #orderList{
+            height: 400px;
+            position: fixed;
+            background-color: white;
+            border: 1px solid black;
+            
+        }
         }
         </style>
     </head>
